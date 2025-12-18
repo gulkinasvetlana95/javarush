@@ -1,0 +1,13 @@
+.botton {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: none;
+
+ &:hover {
+        background-color: darkred;
+        cursor: pointer;
+        transform: translateY(-2px);
+    }
+}
