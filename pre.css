@@ -1,0 +1,65 @@
+.botton {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.botton:hover {
+  background-color: darkred;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(217, 104, 232);
+  align-self: start;
+}
+.header_logo-box {
+  display: flex;
+  justify-self: left;
+  width: 100px;
+  height: 50px;
+  background-color: #fa0000;
+}
+.header__logo {
+  background-color: #fa0000;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: 20px;
+}
+.header_box {
+  width: 100px;
+  height: 110px;
+  background-color: rgb(198, 236, 133);
+  transition: transform 3s, ease;
+}
+.header__list {
+  display: flex;
+  gap: 30px;
+  width: 50px;
+  height: 25px;
+  background-color: rgb(255, 100, 234);
+}
+.header:hover {
+  background-color: rgb(0, 6, 110);
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+.header__botton {
+  background-color: blue;
+}
+.header .some_btn, .header .header__botton {
+  font-size: 24px;
+  line-height: 12x;
+  color: rgb(222, 202, 202);
+}
+
+/*# sourceMappingURL=pre.css.map */
